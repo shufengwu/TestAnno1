@@ -39,6 +39,7 @@ public class PersonProcessor extends AbstractProcessor {
     * @param processingEnvironment 提供给 processor 用来访问工具框架的环境
     */
 
+
     @Override
     public synchronized void init(ProcessingEnvironment processingEnvironment) {
         super.init(processingEnvironment);
